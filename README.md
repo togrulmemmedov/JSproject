@@ -1,4 +1,6 @@
 # JSproject
+
+
 Algoritmika course task 
 To-Do-App project for algoritmika course .It is final task of JavaScript Module
 ActivationButton() => It takes text from input section(if exists) creates new li element inside ul tag and adds new task info to the array
