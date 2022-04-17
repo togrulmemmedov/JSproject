@@ -1,0 +1,2 @@
+# JSproject
+Algoritmika course task 
