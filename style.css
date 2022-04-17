@@ -143,3 +143,9 @@ textarea:focus, input:focus{
     text-align: center;
     color: #FFFFFF;
 }
+.up{
+    display: none;
+}
+.active{
+    display: block;
+}
