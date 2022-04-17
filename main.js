@@ -37,8 +37,8 @@ function removeList(list_id){
 }
 // sorting list functionality
 function sorList(){
-     if(document.querySelector("img").src=="/images/drop-down-hover.svg"){
-         document.querySelector("img").src="/images/drop-up-hover.svg";
+     if(document.querySelector("img").src=="https://mellow-platypus-16e2ff.netlify.app/images/drop-down-hover.svg"){
+         document.querySelector("img").src="https://mellow-platypus-16e2ff.netlify.app/images/drop-up-hover.svg";
       
         list.innerHTML='';
         toDoList.sort();
@@ -50,7 +50,7 @@ function sorList(){
         }
      }
      else{
-        document.querySelector("img").src="/images/drop-down-hover.svg";
+        document.querySelector("img").src="https://mellow-platypus-16e2ff.netlify.app/images/drop-down-hover.svg";
         toDoList.sort().reverse();
         list.innerHTML='';
          for(let i = 0;i<toDoList.length;i++){
